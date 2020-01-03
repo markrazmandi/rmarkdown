@@ -1,0 +1,88 @@
+---
+title: 'Project Feasibility Template'
+author: 'Mark Razmandi'
+date: '2019-10'
+output:
+  rmdformats::material:
+    highlight: kate
+    css: material_style.css
+---
+
+
+```{r knitr_init, echo=FALSE, cache=FALSE}
+library(knitr)
+library(rmdformats)
+
+## Global options
+options(max.print="75")
+opts_chunk$set(echo=FALSE,
+	             cache=TRUE,
+               prompt=FALSE,
+               tidy=TRUE,
+               comment=NA,
+               message=FALSE,
+               warning=FALSE)
+opts_knit$set(width=75)
+```
+
+# Problem Statement
+
+Frame the problem as it relates to the business
+
+Describe the current situation/existing solutions
+
+# Project Objective
+
+Define the objectives in the project (order by priority)
+
+# Project Impact
+
+Describe the organizational impact of the solution
+
+Calculate the qualitative and quantitative valuation of the solution
+
+Capture future evolution of the project (if the project can lead to potential extensions in the future)
+
+# Project Governance
+
+Identify sponsors, steering committee, and project team
+
+Confirm business accountability for involvement/support
+
+# Project Risks
+
+Define risks associated with the project undertaking
+
+# Project Scope
+
+Define the scope of the project
+
+Specify out-of-scope items
+
+# Data Accessibility
+
+Identify the relevant data sources for the project
+
+Confirm availability and/or permissions
+
+# Resource Requirements
+
+List the people requirements for the duration of the project (Core Project Team)
+
+Roles and responsibilities between business and analytics
+
+List the hardware requirements for the duration of the project
+
+# Project Funding
+
+Confirm funding/support to execute project (if applicable)
+
+# Success Metrics
+
+Criteria to determine success
+
+# Project Alignment
+
+Determine the need/appropriateness for a custom Data Science solution
+
+Determine if data sources will intersect and/or migrate

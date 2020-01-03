@@ -1,0 +1,33 @@
+/* whole document */
+body {
+	font-family: HP Simplified Light;
+	font-size: 16pt;
+}
+
+/* headers */
+h1,h2,h3,h4,h5,h6 {
+	font-family: HP Simplified Light;
+	font-size: 24pt;
+}
+
+.pages h1 {
+	color: #0096D6;
+}
+
+.header-panel {
+	background-color: #0096D6;
+}
+
+/* menu bar */
+.menu ul li {
+	padding: 5px 0 5px 15px;
+}
+
+.col-xs-3 {
+    width: 20%;
+}
+
+/* card body */
+.col-xs-9 {
+    width: 80%;
+}

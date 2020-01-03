@@ -1,0 +1,42 @@
+/* whole document */
+body {
+	font-family: HP Simplified Light;
+	font-size: 16pt;
+	color: #000000;
+}
+
+/* headers */
+h1,h2,h3,h4,h5,h6 {
+	font-family: HP Simplified Light;
+	font-size: 24pt;
+	color: #0096D6;
+}
+
+/* table of contents */
+#table-of-contents {
+	background: #0096D6;
+	width: 20%;
+}
+
+#table-of-contents h2 {
+	background: #0096D6;
+}
+
+#table-of-contents a {
+	color: #FFFFFF;
+	font-size: 100%;
+}
+
+#nav-top span.glyphicon {
+	color: #0096D6;
+}
+
+#postamble {
+	width: 20%;
+}
+
+/* main content */
+#content {
+	margin-left: 20%;
+	max-width: 80%;
+}
